@@ -1,0 +1,23 @@
+.Todo {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.Todo-text {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.Todo-delete {
+    background-blend-mode: lighten;
+    background-color: rgba(253, 253, 253, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+.Todo-delete:hover {
+    background-color: rgba(253, 253, 253, 0.315);;
+}

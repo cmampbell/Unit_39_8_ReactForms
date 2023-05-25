@@ -1,0 +1,19 @@
+.NewTodoForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.NewTodoForm-label {
+    font-weight: bold;
+}
+
+.NewTodoForm-input {
+    width: 200px;
+    margin: 12px;
+}
+
+.NewTodoForm-btn {
+    width: 100px;
+}
+
